@@ -1,0 +1,3 @@
+- [ ] Station Eleven by Emily St John Mandel
+- [ ] Clean Architecture by Robert Martin
+- [ ] Pragmatic Programmer
