@@ -1,4 +1,4 @@
-![](GT/Course%20Notes/CS%206220%20-%20HPC/Work-Span%20Model/images/matrix-vector-multiply.png)
+![](images/matrix-vector-multiply.png)
 # Solution
 First lets make sure we understand what loop 1 and loop 2 are doing and what this means in the context of a matrix vector multiply.
 
