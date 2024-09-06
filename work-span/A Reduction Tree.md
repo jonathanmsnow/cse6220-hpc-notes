@@ -1,6 +1,10 @@
-![](GT/Course%20Notes/CS%206220%20-%20HPC/Work-Span%20Model/images/reduction-tree.png)
+![](images/reduction-tree.png)
 # Solution
-We are told that our number of Processors *P* is equal to n. Recalling the example for a reduction that is sequential we know that to load all n elements from A requires $$ceil({n \over P})$$
+We are told that our number of Processors *P* is equal to n. Recalling the example for a reduction that is sequential we know that to load all n elements from A requires 
+
+$$ceil({n \over P})$$
+
+
 Given that *P* = n, all n elements can be loaded in parallel and since this is just a constant, we will ignore it for our analysis. 
 
 Returning to the intuition we got from our previous sequential reduction example we know that each operation takes one unit of time.
