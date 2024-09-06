@@ -1,4 +1,4 @@
-![](GT/Course%20Notes/CS%206220%20-%20HPC/Work-Span%20Model/images/solve-a-recurrence.png)
+![](images/solve-a-recurrence.png)
 # Solution
 The most direct way of solving the recurrence is by using the Master Theorem. Recall that the master theorem is defined as
 
