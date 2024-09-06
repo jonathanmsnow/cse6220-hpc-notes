@@ -1,4 +1,4 @@
-![](GT/Course%20Notes/CS%206220%20-%20HPC/Work-Span%20Model/images/putting-it-all-together-2.png)
+![](images/putting-it-all-together-2.png)
 # Solution
 First lets remember what this question is asking us. We want to know the span which is the path through the DAG that has the most vertices/nodes along it, which is the longest path through the DAG.
 
@@ -6,7 +6,10 @@ Thinking about our DAG and given our assumption that our parfor uses a divide an
 
 At this point this gives us that our DAG would have D(n)=O(logn).
 
-Since span is determined by the longest path through out DAG we already have a logn path. Then since at the end of this path we are going add on from loop 2 another logn we are essentially just doing an addition of those nodes to our path. Therefore we have $$D(n)=O(logn + logn)=O(logn)$$
+Since span is determined by the longest path through out DAG we already have a logn path. Then since at the end of this path we are going add on from loop 2 another logn we are essentially just doing an addition of those nodes to our path. Therefore we have 
+
+$$D(n)=O(logn + logn)=O(logn)$$
+
 Thinking of how nested loops work when calculating other metrics in big-O such as run time complexity, it might seem to make more sense that we would have logn * logn. The reason it is addition vs multiplication is we are interested in finding the length of one path through the DAG and in particular that path is the longest path. Let's take a simple example of n = 2 and look at what the DAG would look like.
 
 ![](GT/Course%20Notes/CS%206220%20-%20HPC/Work-Span%20Model/images/putting-it-all-together-2-dag.png)
