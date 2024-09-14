@@ -1,4 +1,4 @@
-![](GT/Course%20Notes/CS%206220%20-%20HPC/Work-Span%20Model/images/work-and-span.png)
+![](images/work-and-span.png)
 
 # Solution
 Recall the definition of work and span:

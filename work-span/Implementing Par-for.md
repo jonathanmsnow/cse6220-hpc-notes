@@ -1,4 +1,4 @@
-![](GT/Course%20Notes/CS%206220%20-%20HPC/Work-Span%20Model/images/implementing-par-for.png)
+![](images/implementing-par-for.png)
 # Solution
 Let's first think about what the DAG would look like without a spawn for foo(i) with the for loop still assuming that foo is O(1).
 

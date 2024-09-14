@@ -1,4 +1,4 @@
-![](GT/Course%20Notes/CS%206220%20-%20HPC/Work-Span%20Model/images/putting-it-all-together-part1.png)
+![](images/putting-it-all-together-part1.png)
 # Solution
 Recall that the span D(n) is the number of vertices/nodes along the longest path in the DAG. 
 
