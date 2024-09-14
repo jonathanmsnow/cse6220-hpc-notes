@@ -1,4 +1,4 @@
-![](GT/Course%20Notes/CS%206220%20-%20HPC/Comparison-Based%20Sorting/images/bitonic-splits-sol.png)
+![](images/bitonic-splits-sol.png)
 # Solution
 Recall what a bitonic split is:
 
