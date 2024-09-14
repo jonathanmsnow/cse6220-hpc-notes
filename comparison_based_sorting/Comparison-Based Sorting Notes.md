@@ -3,13 +3,13 @@
 		- In other words, they produce output in increasing order when read from top to bottom
 	- Decreasing or minus comparator: Puts the larger of its two input on the top wire output and the smaller on the bottom wire
 		- In other words, they produce output in decreasing order when read from top to bottom
-![](GT/Course%20Notes/CS%206220%20-%20HPC/Comparison-Based%20Sorting/images/comparator-networks.png)
+![](images/comparator-networks.png)
 **Bitonic Sequences**: Is asequence of values where it initially is increasing and then switches to have all values decreasing. 
 A sequence $$ a_1, a_2, \dots, a_n $$ is called **bitonic** if there exists an index k such that: $$ a_1 \leq a_2 \leq \dots \leq a_k \geq a_{k+1} \geq \dots \geq a_n $$ In other words, a bitonic sequence is one that first monotonically increases and then monotonically decreases.
 
 If some circular shift can be applied to make the sequence bitonic then the sequence is bitonic.
 - A quick way to check this is to treat a sequence like a loop (i.e. the previous element of the first element is the last element and the last element's next element is the first element) and make sure that all increases and decreases are consecutive. 
- ![](GT/Course%20Notes/CS%206220%20-%20HPC/Comparison-Based%20Sorting/images/bitonic-sequences.png)
+ ![](images/bitonic-sequences.png)
 
 **Bitonic split**: When you pair the elements of a bitonic input sequence and then you apply mins and maxes to the pairs.
 - This results in two bitonic subsequences
