@@ -1,4 +1,4 @@
-![](GT/Course%20Notes/CS%206220%20-%20HPC/Comparison-Based%20Sorting/images/generate-bitonic-sequence.png)
+![](images/generate-bitonic-sequence.png)
 # Solution
 First, we should recall the definition of a bitonic sequence.
 
