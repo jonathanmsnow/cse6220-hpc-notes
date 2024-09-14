@@ -1,4 +1,4 @@
-![](GT/Course%20Notes/CS%206220%20-%20HPC/Comparison-Based%20Sorting/images/bitonic-merge-networks.png)
+![](images/bitonic-merge-networks.png)
 # Solution
 Recall what a bitonic merge is. You take your n input elements and repeatedly apply a bitonic split to them until you run out of pairs (i.e. every possible pair has been made including the end where there are no pairs to be made in general)
 
